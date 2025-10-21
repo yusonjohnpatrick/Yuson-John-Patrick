@@ -1,0 +1,215 @@
+
+@media screen and (max-width: 1200px) {
+  .navbar{
+     
+    ul{
+   background-color: black;
+    }
+
+  }
+  header {
+    text-align: left;
+    font-size: 20px;
+  }
+.ul li a{
+  color: black;
+  font-size: 25px;
+}
+  #logo {
+   
+    margin-left: 20px;
+    font-size: 40px;
+  
+  }
+  
+  .image-section{
+    grid-column: 1/5;
+ 
+    img {
+
+    border-radius: 50%;
+    width: 50%;
+
+   
+    }
+  }
+
+  .text-section {
+    grid-column: 5/11;
+    padding-top: 2rem;
+    
+  .text-section h2 {
+    font-size: 30px;
+  }
+
+  .text-section p {
+    font-size: 22px;
+  }
+
+  .text-section h2 {
+    font-size: 30px;
+  }
+}
+}
+@media screen and (max-width: 900px) {
+  .navbar{
+     
+    ul{
+      background-color: black;
+    }
+.ul li a{
+    font-size: 25px;
+    color: black;
+  }
+
+  header {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  #logo {
+    margin-left: 20px;
+    font-size: 40px;
+
+  }
+  
+  .image-section{
+    grid-column: 1/5;
+ 
+    img {
+
+   padding: 20px;
+    width: 50%;
+    border-radius: 50%;
+   
+    }
+  }
+
+  }
+  .text-section {
+    grid-column: 5/11;
+    padding-top: 2rem;
+    
+  .text-section h2 {
+    font-size: 30px;
+  }
+
+  .text-section p {
+    font-size: 22px;
+  }
+
+  .text-section h2 {
+    font-size: 30px;
+  }
+}
+}
+@media screen and (max-width: 700px) {
+  .navbar{
+    background-color: aquamarine;
+     
+    ul{
+      display: none;
+    }
+
+  }
+  header {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  #logo {
+    margin-top: -13px;
+    margin-left: 20px;
+    font-size: 30px;
+  }
+
+  .menu-btn {
+    display: block;
+    float: right;
+
+  }
+  
+  .image-section{
+    grid-column: 1/11;
+
+    img{
+      border-radius: 50%;
+      padding-inline: 20px;
+      width: 50%;
+      height: auto;
+    }
+    
+  }
+
+  .text-section {
+    grid-column: 1/11;
+    padding: 2rem;
+    
+  .text-section h2 {
+    font-size: 30px;
+  }
+
+  .text-section p {
+    font-size: 22px;
+  }
+
+  .text-section h2 {
+    font-size: 30px;
+  }
+}
+}
+@media screen and (max-width: 400px) {
+  .navbar{
+    background-color: aquamarine;
+     
+    ul{
+      display: none;
+    }
+
+  }
+  header {
+    text-align: left;
+    font-size: 20px;
+  }
+
+  #logo {
+    font-size: 30px;
+    margin-top: -10px;
+    margin-left: 16px;
+  }
+
+  .menu-btn {
+    display: block;
+    float: right;
+
+  }
+  
+  .image-section{
+    grid-column: 1/11;
+ 
+    img {
+
+    padding: 20px;
+    width: 90%;
+    border-radius: 50%;
+     height: auto;
+    }
+  }
+
+  .text-section {
+    grid-column: 1/11;
+    padding: auto;
+    
+  .text-section h2 {
+    font-size: 30px;
+  }
+
+  .text-section p {
+    font-size: 22px;
+  }
+
+  .text-section h2 {
+    font-size: 30px;
+  }
+}
+}
